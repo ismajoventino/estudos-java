@@ -15,6 +15,7 @@ public class Calculadora {
     public double dividir (int numero1, int numero2) {
     	if (numero2 == 0) {
     		System.out.println("ERRO: Não é possível dividir por 0!");
+		return 0;
     	}
 	    return (double) numero1 / numero2;
     }
